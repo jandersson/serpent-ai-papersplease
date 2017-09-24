@@ -10,9 +10,9 @@ class SerpentPapersPleaseGame(Game, metaclass=Singleton):
     def __init__(self, **kwargs):
         kwargs["platform"] = "steam"
 
-        kwargs["window_name"] = "WINDOW_NAME"
+        kwargs["window_name"] = "Papers Please"
 
-        kwargs["app_id"] = "APP_ID"
+        kwargs["app_id"] = "239030"
         kwargs["app_args"] = None
         
 
