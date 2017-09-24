@@ -14,7 +14,6 @@ class SerpentPapersPleaseGame(Game, metaclass=Singleton):
 
         kwargs["app_id"] = "239030"
         kwargs["app_args"] = None
-        
 
         super().__init__(**kwargs)
 
